@@ -1,0 +1,19 @@
+Dentro da IDE do arduino vá em: 
+Arquivo -> Preferências
+ 
+Dentro de Preferências, certifique-se de estar no menu Configurações
+Dentro do menu Configurações vá até:
+"URLs Adicionais para Gerenciadores de Placas" 
+
+Na caixa de texto ao lado, caso esteja vazia, copie e cole as linhas:  
+http://arduino.esp8266.com/stable/package_esp8266com_index.json,
+https://dl.espressif.com/dl/package_esp32_index.json
+
+O primeiro link diz respeito ao uso do ESP8266 e o segundo ao ESP32
+
+Caso a caixa de texto não esteja vazia, apenas serpare o que esta escrito nela com uma vírgula,
+pois pode-se vários links separados por vírgula. 
+
+Ao adicionar os links, as bibliotecas padrões do ESP32 e ESP8266 serão baixadas automaticamente
+dentro do repositório mostrado mais abaixo da caixa de texto onde colamos os links, normalmente em: 
+C:\User\NomeDeUsuário\AppData\Local\Arduino\packages 
